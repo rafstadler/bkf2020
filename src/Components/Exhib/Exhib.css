@@ -1,0 +1,34 @@
+.body {
+    align-content: center;
+    padding: 100px
+}
+
+.image {
+    object-fit: contain;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+
+.texte {
+    text-align: justify;
+    color:rgba(255,255,255,1);
+    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro {
+    margin-top: 30%;
+    margin-bottom: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color:rgba(255,255,255,1);
+    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    margin-top: 10%;
+}

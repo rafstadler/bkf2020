@@ -1,0 +1,13 @@
+.footer {
+    
+}
+
+
+.footer-texte {
+    text-align: right;
+    letter-spacing:normal;
+    color:rgba(255,255,255,1);
+    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    font-size:10px;
+    padding-top: 40px;
+}
