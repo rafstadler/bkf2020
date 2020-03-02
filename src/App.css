@@ -1,6 +1,8 @@
 .general {
     background-color: #000000;
-    height: 100vh
+    height: 100vh;
+    padding-right: 8%;
+    padding-left: 8%;
 }
 
 .hidden { display:none; }

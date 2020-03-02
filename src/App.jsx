@@ -29,7 +29,7 @@ class App extends Component {
                 <div className={this.state.page=="ABOUT" ? '' : 'hidden'}>
                     <Body></Body>
                 </div>
-                <div className={this.state.page=="EXHIBITION" ? '' : 'hidden'}>
+                <div className={this.state.page=="EXHIBITIONS" ? '' : 'hidden'}>
                     <Exhib></Exhib>
                 </div>
                 <div className={this.state.page=="MEMBERS" ? '' : 'hidden'}>
