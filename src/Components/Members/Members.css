@@ -1,21 +1,51 @@
-.body {
+.general-members {
     align-content: center;
-    padding: 100px
+    margin-top: 6%;
+    margin-bottom: 10%;
+    height: 80%
 }
 
-.image {
-    object-fit: contain;
-    margin-top: 80px;
+.image-members {
+   
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     display: block
 }
 
-.texte {
+.fleche{
+    display: flex;
+    align-items: center;
+}
+
+.texte-members {
     text-align: justify;
     color:rgba(255,255,255,1);
     font-family:Impact, 'Impact', 'Impact', sans-serif;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
+}
+
+h1.members {
+    color:rgba(255,255,255,1);
+    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    margin-bottom: 10px;
+}
+
+h2.members {
+    color:rgba(255,255,255,1);
+    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10%;
+}
+
+h4.members {
+    color:rgba(255,255,255,1);
+    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    margin-top: 20px;
+}
+
+.fleche-mobile {
+    margin-top: 50px
 }
