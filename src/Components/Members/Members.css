@@ -21,7 +21,7 @@
 .texte-members {
     text-align: justify;
     color:rgba(255,255,255,1);
-    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    font-family:MonImpact;
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -29,20 +29,20 @@
 
 h1.members {
     color:rgba(255,255,255,1);
-    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    font-family:MonImpact;
     margin-bottom: 10px;
 }
 
 h2.members {
     color:rgba(255,255,255,1);
-    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    font-family:MonImpact;
     margin-bottom: 10px;
     margin-top: 10%;
 }
 
 h4.members {
     color:rgba(255,255,255,1);
-    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    font-family:MonImpact;
     margin-top: 20px;
 }
 

@@ -19,19 +19,22 @@ class Header extends Component {
                 name : "Ludovic Garni",
                 image : dudu,
                 story : "Ludovic Garni, membre fondateur du collectif créatif Breakfast Paris, est un artiste s’inspirant du style impressionnisme et du réalisme afin de réaliser des tableaux de paysages et d’autres de femmes : deux éléments primordiaux l’inspirant dans sa vie de tous les jours.\nIl est également gérant de la marque de vêtements Breakfast Paris en tant que Brand Manager mais aussi Art Director et Project Manager pour la mise en place des Breakfast Exhibitions. ",
-                insta : "dududavies_"
+                insta : "dududavies_",
+                instalink : "https://www.instagram.com/dududavies_/"
             },
             emota : {
                 name : "EMOTA",
                 image : emota,
                 story : "Emota, membre fondateur de la marque Breakfast Paris, est un artiste accompli en tant que chanteur, peintre et tatoueur. Il réalise des tableaux s’inscrivant dans le style cubisme tout en s’inspirant de masques africains, de forme géométrique qu’il retravaille à sa manière dans un mélange formant des personnages défigurés tout cela afin de créer son propre style. Emota puise son inspiration principalement dans la faune et la flore tout en les ralliant à la femme et à ses personnages aux masques africains.",
-                insta : "emota.lov"
+                insta : "emota.lov",
+                instalink : "https://www.instagram.com/emota.lov/"
             },
             tchap : {
                 name : "TCHAP",
                 image : tchap,
                 story : "Tchap, membre fondateur du collectif créatif Breakfast Paris, est un rappeur, event planner et commercial . Tout en participant au bon fonctionnement de la marque Breakfast Paris et de la mise en place des évènements avec Ludovic Garni, Tchap est aussi un rappeur avec ces derniers titres tels que Trouble, En Scène ou encore Replay.",
-                insta : "tchap.bkf"
+                insta : "tchap.bkf",
+                instalink : "https://www.instagram.com/tchap.bkf/"
             },
             
             actuel: ""
@@ -78,10 +81,14 @@ class Header extends Component {
                         <p className="texte-members">{this.state.actuel.story}</p>
                         <Row className="align-items-center">
                             <Col xs="2" >
-                                <Image src={insta} fluid></Image>
+                                <a href={this.state.actuel.instalink}>
+                                    <Image src={insta} fluid></Image>
+                                </a>
                             </Col>
                             <Col >
-                                <h4 className="members">{this.state.actuel.insta}</h4>
+                                <a href={this.state.actuel.instalink}>
+                                    <h4 className="members">{this.state.actuel.insta}</h4>
+                                </a>
                             </Col>
                         </Row>
                     </Col>

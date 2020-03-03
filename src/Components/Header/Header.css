@@ -6,8 +6,8 @@ header {
     opacity:1;
     letter-spacing:normal;
     color:rgba(255,255,255,1);
-    font-family:Impact, 'Impact', 'Impact', sans-serif;
-    font-size:38px;
+    font-family:MonImpact;
+    font-size:36px;
     text-shadow:6px 2px 4px rgba(255,58,221,1);
     padding-top: 40px;
 }
@@ -15,7 +15,7 @@ header {
 .header-categorie {
     opacity:1;
     color:rgba(255,255,255,1);
-    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    font-family:MonImpact;
     font-size:18px;
     mix-blend-mode:normal;
     padding-top: 60px;
@@ -25,7 +25,7 @@ header {
 .header-drop {
     opacity:1;
     color:rgba(255,255,255,1);
-    font-family:Impact, 'Impact', 'Impact', sans-serif;
+    font-family:MonImpact;
     font-size:16px;
     mix-blend-mode:normal;
     padding-top: 50px;
