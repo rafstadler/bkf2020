@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container,Row,Col} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import Header from "./Components/Header/Header";
 import Body from "./Components/Body/Body";
 import Exhib from "./Components/Exhib/Exhib";
@@ -26,13 +26,13 @@ class App extends Component {
         <div className="general">
             <Container>
                 <Header callbackpage={this.pageCallback} page={this.state.page}></Header>
-                <div className={this.state.page=="ABOUT" ? '' : 'hidden'}>
+                <div className={this.state.page==="ABOUT" ? '' : 'hidden'}>
                     <Body></Body>
                 </div>
-                <div className={this.state.page=="EXHIBITIONS" ? '' : 'hidden'}>
+                <div className={this.state.page==="EXHIBITIONS" ? '' : 'hidden'}>
                     <Exhib></Exhib>
                 </div>
-                <div className={this.state.page=="MEMBERS" ? '' : 'hidden'}>
+                <div className={this.state.page==="MEMBERS" ? '' : 'hidden'}>
                     <Members></Members>
                 </div>
                 <Footer></Footer>

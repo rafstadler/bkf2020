@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container,Row,Col,Image} from 'react-bootstrap';
+import {Row,Col,Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Members.css';
 import droite from './flechedroite.png';
@@ -18,7 +18,7 @@ class Header extends Component {
             dudu : {
                 name : "Ludovic Garni",
                 image : dudu,
-                story : "Ludovic Garni, membre fondateur du collectif créatif Breakfast Paris, est un artiste s’inspirant du style impressionnisme et du réalisme afin de réaliser des tableaux de paysages et d’autres de femmes : deux éléments primordiaux l’inspirant dans sa vie de tous les jours.\nIl est également gérant de la marque de vêtements Breakfast Paris en tant que Brand Manager mais aussi Art Director et Project Manager pour la mise en place des Breakfast Exhibitions. ",
+                story : "Ludovic Garni, membre fondateur du collectif créatif Breakfast Paris, est un artiste s’inspirant du style impressionnisme et du réalisme afin de réaliser des tableaux de paysages et d’autres de femmes : deux éléments primordiaux l’inspirant dans sa vie de tous les jours. Il est également gérant de la marque de vêtements Breakfast Paris en tant que Brand Manager mais aussi Art Director et Project Manager pour la mise en place des Breakfast Exhibitions. ",
                 insta : "dududavies_",
                 instalink : "https://www.instagram.com/dududavies_/"
             },
@@ -46,21 +46,21 @@ class Header extends Component {
 
 
     next = () => {
-        if(this.state.actuel.name == "Ludovic Garni" ){
+        if(this.state.actuel.name === "Ludovic Garni" ){
             this.setState({ actuel: this.state.emota});
-        }else if(this.state.actuel.name == "EMOTA" ){
+        }else if(this.state.actuel.name === "EMOTA" ){
             this.setState({ actuel: this.state.tchap});
-        }else if(this.state.actuel.name == "TCHAP" ){
+        }else if(this.state.actuel.name === "TCHAP" ){
             this.setState({ actuel: this.state.dudu});
         }
     }
     
     previous = () => {
-        if(this.state.actuel.name == "Ludovic Garni" ){
+        if(this.state.actuel.name === "Ludovic Garni" ){
             this.setState({ actuel: this.state.tchap});
-        }else if(this.state.actuel.name == "EMOTA" ){
+        }else if(this.state.actuel.name === "EMOTA" ){
             this.setState({ actuel: this.state.dudu});
-        }else if(this.state.actuel.name == "TCHAP" ){
+        }else if(this.state.actuel.name === "TCHAP" ){
             this.setState({ actuel: this.state.emota});
         }
     }

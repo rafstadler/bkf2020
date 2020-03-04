@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container,Row,Col,Image} from 'react-bootstrap';
+import {Row,Col,Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Body.css';
 import logo from './image.png';

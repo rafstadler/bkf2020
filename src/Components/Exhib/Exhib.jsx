@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import {Container,Row,Col,Image} from 'react-bootstrap';
+import {Row,Col,Image} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Exhib.css';
-import logo from './image.png';
 import barre from './barre.png';
 import legacy1 from './legacy1.png';
 import legacy2 from './legacy2.png';
@@ -40,7 +39,7 @@ class Header extends Component {
                     </Col>
                     <Col>
                         <Image className="image" src={legacy2} fluid></Image>
-                        <p className="texte">L'exposition Legacy consistait à mélanger les peintures de l'artiste Emota et de Ludovic Garni, la musique du producteur et Dj Charles Offmann, la marque de vêtements Breakfast Paris à l'aide de la promotion de ses différents produits, tout cela dans une salle décorée afin qu'elle reflète au mieux notre univers.En l'honneur de notre première exposition, la Bkf a décidé d’ offrir le Legacy ( l'héritage ) à  travers des textes explicatifs et une vidéo permettant de comprendre  notre atmosphère. </p>
+                        <p className="texte">L'exposition Legacy consistait à mélanger les peintures de l'artiste Emota et de Ludovic Garni, la musique du producteur et Dj Charles Offmann, la marque de vêtements Breakfast Paris à l'aide de la promotion de ses différents produits, tout cela dans une salle décorée afin qu'elle reflète au mieux notre univers. En l'honneur de notre première exposition, la Bkf a décidé d’ offrir le Legacy ( l'héritage ) à  travers des textes explicatifs et une vidéo permettant de comprendre  notre atmosphère. </p>
                     </Col>
                 </Row> 
                     </Col>

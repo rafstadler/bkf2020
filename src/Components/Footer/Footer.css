@@ -1,8 +1,3 @@
-.footer {
-    
-}
-
-
 .footer-texte {
     text-align: center;
     letter-spacing:normal;
@@ -10,4 +5,5 @@
     font-family:MonImpact;
     font-size:10px;
     padding-top: 40px;
+    margin-bottom: 30px
 }
