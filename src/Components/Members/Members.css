@@ -18,6 +18,11 @@
     align-items: center;
 }
 
+.fleche:hover {
+    transform: scale(1.2);
+    cursor: alias
+}
+
 .texte-members {
     text-align: justify;
     color:rgba(255,255,255,1);
@@ -44,6 +49,15 @@ h4.members {
     color:rgba(255,255,255,1);
     font-family:MonImpact;
     margin-top: 20px;
+}
+
+h1:hover {
+    text-shadow:6px 2px 4px rgba(255,58,221,1);
+}
+
+h4:hover {
+  text-shadow:6px 2px 4px rgba(255,58,221,1);
+    cursor:alias
 }
 
 .fleche-mobile {

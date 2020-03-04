@@ -71,7 +71,7 @@ class Header extends Component {
                 <h2 className="d-md-none d-sm-block members">{this.state.actuel.name}</h2>
                 <Row className="align-items-center">
                     <Col md="1" className="d-none d-sm-none d-md-block">
-                        <Image src={gauche} fluid onClick={() => this.previous()}></Image>
+                        <Image className="fleche" src={gauche} fluid onClick={() => this.previous()}></Image>
                     </Col>
                     <Col md="4">
                         <Image className="image-members" src={this.state.actuel.image} fluid></Image>
@@ -93,7 +93,7 @@ class Header extends Component {
                         </Row>
                     </Col>
                     <Col md="1" className="d-none d-sm-none d-md-block">
-                        <Image src={droite} fluid onClick={() => this.next()}></Image>
+                        <Image className="fleche" src={droite} fluid onClick={() => this.next()}></Image>
                     </Col>
                 </Row>
                 <Row className="d-md-none d-sm-block fleche-mobile">
